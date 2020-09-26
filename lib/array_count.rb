@@ -1,5 +1,5 @@
 def count_strings(array)
-array.count do |x|
+   array.count do |x|
 x.is_a?(String)
 end
 end   
