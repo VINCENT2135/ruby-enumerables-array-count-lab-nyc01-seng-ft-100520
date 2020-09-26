@@ -8,6 +8,6 @@ end
 
 def count_empty_strings(array)
   array.count do |x|
-   x.is_a?(String)
+   x.empty?
    end
 end
